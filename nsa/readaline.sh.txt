@@ -1,0 +1,10 @@
+echo "enter file name:"
+read f
+n=1
+while read line;
+do
+echo "line NO. $n : $line"
+n=$((n+1))
+done<  $f
+~
+~
